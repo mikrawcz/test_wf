@@ -1,7 +1,6 @@
 site_name: WF pages
 theme:
   name: material
-  custom_dir: overrides
   features:
     - navigation.tabs
 
