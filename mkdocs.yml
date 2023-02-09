@@ -1,0 +1,28 @@
+site_name: WF pages
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+     permalink: "#"
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+nav:
+        - 'Getting Started':
+          - 'index.md'
